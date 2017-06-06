@@ -41,10 +41,15 @@ def player_input():
     while not (marker=='X' or marker == 'O'):
         marker=raw_input("Player 1:Do you wanna choose X or O?").upper()
     if marker=='X':
+#returning tuples
         return('X','O')
     else:
         return('O','X')
 
+#function to place the marker fot the player
+def place_marker(board,marker,position):
+    
+    
 
 
 
