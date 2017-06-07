@@ -1,37 +1,19 @@
 import __future__ from print_function
 from IPython.display import clear_output
 
-
-player1_index=raw_input('Player 1 (X or O):')
-if player1_index=='X':
-    print 'Player 2 :{x}'.format(x='O')
-    player2_index='O'
-else:
-    print 'Player 2 :{x}'.format(x='X')
-    player2_index='X'
-def board_input(player1_index,player2_index):
-    for i in range(1,10,1):
-        index[i]=input('What is your move(1-9):')
-        if i%2==1:
-            index[i]=player1_index
-        else:
-            index[i]=player2_index
-        board
-
-
 #Printing Board
 def display_board(board):
     clear_output()
     print ('  |  |  ')
-    print (' '+ index[7] +' | '+ index[8] +' | ' + index[9]+' ')
+    print (' '+ board[7] +' | '+ board[8] +' | ' + board[9])
     print ('  |  |  ')
     print ('--------')
     print ('  |  |  ')
-    print (' '+ index[7] +' | '+ index[8] +' | ' + index[9]+' ')
+    print (' '+ board[7] +' | '+ board[8] +' | ' + board[9])
     print ('  |  |  ')
     print ('--------')
     print ('  |  |  ')
-    print (' '+ index[7] +' | '+ index[8] +' | ' + index[9]+' ')
+    print (' '+ board[7] +' | '+ board[8] +' | ' + board[9])
     print ('  |  |  ')
 
 
@@ -46,13 +28,24 @@ def player_input():
     else:
         return('O','X')
 
-#function to place the marker fot the player
+#function to place the marker for the player at that position
 def place_marker(board,marker,position):
+    board[position] = marker
     
-    
+#function to check if the position is empty   
+def check_board(index[i]):
+    return (index[i]=='')
 
-
-
+#Fucntion to check if any player has won
+def win_check(board,marker):
+    return (board[1]==marker and board[2]==marker and board[3]==marker) or 
+    (board[4]==marker and board[5]==marker and board[6]==marker) or
+    (board[7]==marker and board[8]==marker and board[9]==marker) or
+    (board[1]==marker and board[4]==marker and board[7]==marker) or
+    (board[2]==marker and board[5]==marker and board[8]==marker) or
+    (board[3]==marker and board[6]==marker and board[9]==marker) or
+    (board[1]==marker and board[5]==marker and board[9]==marker) or
+    (board[3]==marker and board[5]==marker and board[7]==marker) 
 
 
 
