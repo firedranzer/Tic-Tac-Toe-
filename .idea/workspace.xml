@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63fa85db-6eb4-48a7-b87d-dcdb147ecb7e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tic_Tac_Toe.py" afterPath="$PROJECT_DIR$/Tic_Tac_Toe.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,19 +17,14 @@
       <file leaf-file-name="Tic_Tac_Toe.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tic_Tac_Toe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state relative-caret-position="-1344">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <element signature="e#141#522#0" expanded="false" />
-                <element signature="e#596#824#0" expanded="false" />
-                <element signature="e#931#955#0" expanded="false" />
-                <element signature="e#1055#1084#0" expanded="false" />
-                <element signature="e#1160#1705#0" expanded="false" />
-                <element signature="e#1806#1898#0" expanded="false" />
-                <element signature="e#1975#2075#0" expanded="false" />
-                <element signature="e#2159#2360#0" expanded="false" />
-                <element signature="e#2434#2514#0" expanded="false" />
+                <element signature="e#591#819#0" expanded="false" />
+                <element signature="e#1050#1079#0" expanded="false" />
+                <element signature="e#1155#1700#0" expanded="false" />
+                <element signature="e#2416#2496#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -231,11 +224,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -259,12 +251,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Tic_Tac_Toe.py</url>
-          <line>51</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -280,19 +266,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tic_Tac_Toe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="-1344">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <element signature="e#141#522#0" expanded="false" />
-            <element signature="e#596#824#0" expanded="false" />
-            <element signature="e#931#955#0" expanded="false" />
-            <element signature="e#1055#1084#0" expanded="false" />
-            <element signature="e#1160#1705#0" expanded="false" />
-            <element signature="e#1806#1898#0" expanded="false" />
-            <element signature="e#1975#2075#0" expanded="false" />
-            <element signature="e#2159#2360#0" expanded="false" />
-            <element signature="e#2434#2514#0" expanded="false" />
+            <element signature="e#591#819#0" expanded="false" />
+            <element signature="e#1050#1079#0" expanded="false" />
+            <element signature="e#1155#1700#0" expanded="false" />
+            <element signature="e#2416#2496#0" expanded="false" />
           </folding>
         </state>
       </provider>
